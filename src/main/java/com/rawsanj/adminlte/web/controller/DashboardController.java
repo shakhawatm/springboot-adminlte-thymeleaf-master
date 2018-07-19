@@ -13,7 +13,7 @@ public class DashboardController {
 
     @RequestMapping("/")
     public String index() {
-        return "dashboard/index";
+        return "dashboard/tabbed";
     }
 
     // Added to test 500 page
